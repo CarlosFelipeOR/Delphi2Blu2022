@@ -10,6 +10,7 @@ type
   TfrmPrincipal = class(TForm)
     btnIniciar: TButton;
     mmValorConta: TMemo;
+    Label1: TLabel;
     procedure btnIniciarClick(Sender: TObject);
     procedure CalcularConta;
   private
@@ -28,11 +29,17 @@ implementation
 procedure TfrmPrincipal.CalcularConta;
 var
   xTipoCliente : Integer;
-  xConsumo, xValorConta : double;
+  xConsumo, xValorConta, xDesconto : double;
 begin
   xTipoCliente := StrToInt(InputBox('Cálculo Conta de Luz',
-                   'Tipo de Cliente: 1-Residencia, 2-Comércio ou 3-Indústria',
+                   'Tipo de Cliente: 1-Residencia, 2-Comércio , 3-Indústria ou 4-Área rural',
                    '1'));
+
+  xDesconto := strtofloat(InputBox('Desconto cliente',
+                   'Informe se o cliente possui algum desconto a ser abatido',
+                    '0'));
+
+
   xConsumo := StrToFloat(InputBox('Cálculo Conta de Luz',
                    'Quantidade de kWh consumido:',
                    '0'));
@@ -43,7 +50,11 @@ begin
       xValorConta := xConsumo * 0.48;
     3: //Industria
       xValorConta := xConsumo * 1.29;
+    4: //Área rural
+      xValorConta := xConsumo * 2.18;
   end;
+
+  xvalorconta := xvalorconta - xdesconto;
 
   mmValorConta.Lines.Add(FormatFloat('R$ #0.00',xValorConta));
 
