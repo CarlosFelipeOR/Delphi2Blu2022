@@ -1,0 +1,77 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Presta'#231#245'es 5x'
+  ClientHeight = 187
+  ClientWidth = 404
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 0
+    Top = 112
+    Width = 404
+    Height = 16
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'Em 5 vezes, o valor das presta'#231#245'es '#233': '
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object lblResultado: TLabel
+    Left = 0
+    Top = 144
+    Width = 404
+    Height = 23
+    Alignment = taCenter
+    AutoSize = False
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 111
+    Top = 47
+    Width = 161
+    Height = 13
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'Valor compra:'
+  end
+  object Label3: TLabel
+    Left = 0
+    Top = 8
+    Width = 404
+    Height = 19
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'Valor das Presta'#231#245'es em 5x'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object edtValorCompra: TEdit
+    Left = 111
+    Top = 66
+    Width = 161
+    Height = 21
+    TabOrder = 0
+    OnChange = edtValorCompraChange
+  end
+end

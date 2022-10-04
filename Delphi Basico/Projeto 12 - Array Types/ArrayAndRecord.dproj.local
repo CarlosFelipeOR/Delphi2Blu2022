@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2022/09/13 21:20:39.814,=C:\Users\craymundo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/13 21:23:35.271,C:\Users\craymundo\Desktop\Carlos\Projeto 12 - Array Types\ArrayRecords.pas=C:\Users\craymundo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/13 21:23:35.271,C:\Users\craymundo\Desktop\Carlos\Projeto 12 - Array Types\ArrayRecords.dfm=C:\Users\craymundo\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2022/09/13 21:24:23.275,C:\Users\craymundo\Desktop\Carlos\Projeto 12 - Array Types\ArrayAndRecord.dproj=C:\Users\craymundo\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2022/09/13 21:24:39.134,C:\Users\craymundo\Desktop\Carlos\Projeto 12 - Array Types\UfrmPrincipal.dfm=C:\Users\craymundo\Desktop\Carlos\Projeto 12 - Array Types\ArrayRecords.dfm</Transaction>
+    <Transaction>2022/09/13 21:24:39.134,C:\Users\craymundo\Desktop\Carlos\Projeto 12 - Array Types\UfrmPrincipal.pas=C:\Users\craymundo\Desktop\Carlos\Projeto 12 - Array Types\ArrayRecords.pas</Transaction>
+  </Transactions>
+</BorlandProject>

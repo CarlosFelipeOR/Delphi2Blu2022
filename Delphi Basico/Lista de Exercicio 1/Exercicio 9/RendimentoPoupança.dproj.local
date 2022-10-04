@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/09/16 18:20:49.000.880,=C:\Users\craymundo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/23 19:05:10.000.935,=C:\Users\craymundo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/23 19:11:05.000.761,C:\Users\craymundo\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\craymundo\Desktop\Carlos\Lista de Exercicio 1\Exercicio 9\UfrmPrincipal.dfm</Transaction>
+    <Transaction>2022/09/23 19:11:05.000.761,C:\Users\craymundo\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\craymundo\Desktop\Carlos\Lista de Exercicio 1\Exercicio 9\UfrmPrincipal.pas</Transaction>
+    <Transaction>2022/09/23 19:11:22.000.586,C:\Users\craymundo\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\craymundo\Desktop\Carlos\Lista de Exercicio 1\Exercicio 9\RendimentoPoupança.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

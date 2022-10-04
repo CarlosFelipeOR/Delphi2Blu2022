@@ -1,0 +1,50 @@
+unit UfrmPrincipal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls;
+
+type
+  TfrmPrincipal = class(TForm)
+    edtNome: TEdit;
+    btnIf: TButton;
+    btnCase: TButton;
+    rdgNivel: TRadioGroup;
+    Label1: TLabel;
+    procedure btnIfClick(Sender: TObject);
+    procedure btnCaseClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmPrincipal: TfrmPrincipal;
+
+implementation
+
+{$R *.dfm}
+
+
+
+procedure TfrmPrincipal.btnCaseClick(Sender: TObject);
+begin
+  case rdgNivel.ItemIndex of
+    0 : ShowMessage('Eu ' + edtNome.Text + ' sou do nível Estagiário');
+    1 : ShowMessage('Eu ' + edtNome.Text + ' sou do nível Júnior');
+    2 : ShowMessage('Eu ' + edtNome.Text + ' sou do nível Pleno');
+    3 : ShowMessage('Eu ' + edtNome.Text + ' sou do nível Senior');
+  end;
+end;
+
+procedure TfrmPrincipal.btnIfClick(Sender: TObject);
+
+begin
+if edtNome.Text = 'Carlos' then
+  ShowMessage('Sou eu. Presente');
+end;
+
+end.

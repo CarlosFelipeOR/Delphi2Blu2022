@@ -1,0 +1,40 @@
+object frmSalarios: TfrmSalarios
+  Left = 0
+  Top = 0
+  Caption = 'Reajustes de Sal'#225'rios'
+  ClientHeight = 281
+  ClientWidth = 474
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object btnCadastro: TButton
+    Left = 352
+    Top = 24
+    Width = 106
+    Height = 41
+    Caption = 'Iniciar Cadastro'
+    TabOrder = 0
+    OnClick = btnCadastroClick
+  end
+  object btnListar: TButton
+    Left = 352
+    Top = 80
+    Width = 106
+    Height = 41
+    Caption = 'Listar Sal'#225'rios'
+    TabOrder = 1
+  end
+  object mmLista: TMemo
+    Left = 16
+    Top = 24
+    Width = 313
+    Height = 249
+    TabOrder = 2
+  end
+end

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/09/16 18:20:49.000.880,=C:\Users\craymundo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/21 21:27:26.982,=C:\Users\craymundo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/21 21:28:45.459,C:\Users\craymundo\Desktop\Carlos\Lista de Exercicio 1\Exercicio 7\UfrmPrincipal.pas=C:\Users\craymundo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/21 21:28:45.459,C:\Users\craymundo\Desktop\Carlos\Lista de Exercicio 1\Exercicio 7\UfrmPrincipal.dfm=C:\Users\craymundo\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2022/09/21 21:29:05.464,C:\Users\craymundo\Desktop\Carlos\Lista de Exercicio 1\Exercicio 7\ConverterTemperatura.dproj=C:\Users\craymundo\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

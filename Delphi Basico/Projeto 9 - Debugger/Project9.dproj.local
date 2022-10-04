@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/09/12 19:06:12.000.262,=C:\Users\craymundo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/12 19:08:33.000.554,C:\Users\craymundo\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\craymundo\Desktop\Carlos\Projeto 9\Unit1.dfm</Transaction>
+    <Transaction>2022/09/12 19:08:33.000.554,C:\Users\craymundo\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\craymundo\Desktop\Carlos\Projeto 9\Unit1.pas</Transaction>
+    <Transaction>2022/09/12 19:08:38.000.669,C:\Users\craymundo\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\craymundo\Desktop\Carlos\Projeto 9\Project9.dproj</Transaction>
+    <Transaction>2022/09/12 19:17:59.708,=C:\Users\craymundo\Desktop\Carlos\Projeto 9 - Debugger\Unit2.pas</Transaction>
+    <Transaction>2022/09/12 19:18:18.316,C:\Users\craymundo\Desktop\Carlos\Projeto 9 - Debugger\UCalculadora.pas=C:\Users\craymundo\Desktop\Carlos\Projeto 9 - Debugger\Unit2.pas</Transaction>
+    <Transaction>2022/09/12 19:18:53.110,C:\Users\craymundo\Desktop\Carlos\Projeto 9 - Debugger\ufrmDebugger.pas=C:\Users\craymundo\Desktop\Carlos\Projeto 9 - Debugger\Unit1.pas</Transaction>
+    <Transaction>2022/09/12 19:18:53.110,C:\Users\craymundo\Desktop\Carlos\Projeto 9 - Debugger\ufrmDebugger.dfm=C:\Users\craymundo\Desktop\Carlos\Projeto 9 - Debugger\Unit1.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

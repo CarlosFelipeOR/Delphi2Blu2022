@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/09/16 18:20:49.000.880,=C:\Users\craymundo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/23 19:28:02.000.985,=C:\Users\craymundo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/23 19:31:22.000.080,=C:\Users\craymundo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/26 18:37:17.000.279,=C:\Users\craymundo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/26 20:33:25.000.066,=C:\Users\craymundo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/26 20:59:05.000.689,=C:\Users\craymundo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/27 20:05:18.000.573,=C:\Users\craymundo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/27 20:28:19.000.118,C:\Users\craymundo\Desktop\Carlos\Lista de Exercicio 1\Exercicio 20\UfrmPrincipal.dfm=C:\Users\craymundo\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2022/09/27 20:28:19.000.118,C:\Users\craymundo\Desktop\Carlos\Lista de Exercicio 1\Exercicio 20\UfrmPrincipal.pas=C:\Users\craymundo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/27 20:28:28.000.812,C:\Users\craymundo\Desktop\Carlos\Lista de Exercicio 1\Exercicio 20\OfertaCarros.dproj=C:\Users\craymundo\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2022/09/27 21:11:30.000.129,C:\Users\craymundo\Desktop\Carlos\Lista de Exercicio 1\Exercicio 21\OfertaCarros.dproj=C:\Users\craymundo\Desktop\Carlos\Lista de Exercicio 1\Exercicio 21\ServicoMilitar.dproj</Transaction>
+    <Transaction>2022/09/28 18:32:00.368,C:\Users\craymundo\Desktop\Carlos\Lista de Exercicio 1\Exercicio 22\CalculoLucro.dproj=C:\Users\craymundo\Desktop\Carlos\Lista de Exercicio 1\Exercicio 22\ServicoMilitar.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

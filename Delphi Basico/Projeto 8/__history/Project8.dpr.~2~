@@ -1,0 +1,35 @@
+program Project8;
+
+{$APPTYPE CONSOLE}
+
+{$R *.res}
+
+uses
+  System.SysUtils;
+
+var
+  xCelsius: Integer;
+  xFarenheit: Double;
+  xResp: String;
+
+begin
+  try
+    repeat
+      Writeln('Digite a temperatura em Celsius: ');
+      Readln(xCelsius);
+
+      xFarenheit := 9 * xCelsius / 5 + 32;
+
+      Writeln('Equivalente em Fahrenheit: ' + FloatToStr(xFahrenheit));
+
+      Writeln('Deseja repetir (s/n)? ');
+      Readln(xResp);
+
+    until(xResp = 'n');
+
+    { TODO -oUser -cConsole Main : Insert code here }
+  except
+    on E: Exception do
+      Writeln(E.ClassName, ': ', E.Message);
+  end;
+end.

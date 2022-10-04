@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/09/14 21:34:51.000.183,=C:\Users\craymundo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/14 21:37:40.000.018,C:\Users\craymundo\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\craymundo\Desktop\Carlos\Exercicio 2 - Comandos de Repeticao\UfrmPrincipal.dfm</Transaction>
+    <Transaction>2022/09/14 21:37:40.000.018,C:\Users\craymundo\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\craymundo\Desktop\Carlos\Exercicio 2 - Comandos de Repeticao\UfrmPrincipal.pas</Transaction>
+    <Transaction>2022/09/14 21:37:51.000.370,C:\Users\craymundo\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\craymundo\Desktop\Carlos\Exercicio 2 - Comandos de Repeticao\ComandosRepeticao.dproj</Transaction>
+    <Transaction>2022/09/19 19:04:23.000.684,C:\Users\craymundo\Desktop\Carlos\Exercicio 3 - Comando de repetição com Metodos\UfrmPrincipal.pas=C:\Users\craymundo\Desktop\Carlos\Exercicio 2 - Comandos de Repeticao\UfrmPrincipal.pas</Transaction>
+    <Transaction>2022/09/19 19:04:23.000.684,C:\Users\craymundo\Desktop\Carlos\Exercicio 3 - Comando de repetição com Metodos\UfrmPrincipal.dfm=C:\Users\craymundo\Desktop\Carlos\Exercicio 2 - Comandos de Repeticao\UfrmPrincipal.dfm</Transaction>
+    <Transaction>2022/09/19 19:04:37.000.273,C:\Users\craymundo\Desktop\Carlos\Exercicio 2 - Comandos de Repeticao\ComandosRepeticao.dproj=C:\Users\craymundo\Desktop\Carlos\Exercicio 2 - Comandos de Repeticao\ComandosRepeticao.dproj</Transaction>
+    <Transaction>2022/09/19 19:07:51.000.742,C:\Users\craymundo\Desktop\Carlos\Exercicio 3 - Comando de repetição com Metodos\UfrmPrincipal.pas=C:\Users\craymundo\Desktop\Carlos\Exercicio 2 - Comandos de Repeticao\UfrmPrincipal.pas</Transaction>
+    <Transaction>2022/09/19 19:07:51.000.742,C:\Users\craymundo\Desktop\Carlos\Exercicio 3 - Comando de repetição com Metodos\UfrmPrincipal.dfm=C:\Users\craymundo\Desktop\Carlos\Exercicio 2 - Comandos de Repeticao\UfrmPrincipal.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

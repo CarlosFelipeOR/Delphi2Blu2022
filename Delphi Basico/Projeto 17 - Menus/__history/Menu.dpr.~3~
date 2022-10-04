@@ -1,0 +1,17 @@
+program Menu;
+
+uses
+  Vcl.Forms,
+  UfrmPrincipal in 'UfrmPrincipal.pas' {TfrmPrincipal},
+  UfrmClientes in 'UfrmClientes.pas' {TfrmCliente},
+  UfrmFornecedores in 'UfrmFornecedores.pas' {TfrmFornecedores},
+  UfrmProdutos in 'UfrmProdutos.pas' {TfrmProdutos};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TTfrmPrincipal, TfrmPrincipal);
+  Application.Run;
+end.

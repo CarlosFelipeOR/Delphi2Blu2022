@@ -1,0 +1,14 @@
+program Menu;
+
+uses
+  Vcl.Forms,
+  UfrmPrincipal in 'UfrmPrincipal.pas' {TfrmPrincipal};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TTfrmPrincipal, TfrmPrincipal);
+  Application.Run;
+end.

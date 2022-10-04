@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/09/16 18:20:49.000.880,=C:\Users\craymundo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/19 20:09:05.000.449,=C:\Users\craymundo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/19 20:14:54.000.006,C:\Users\craymundo\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\craymundo\Desktop\Carlos\UfrmPrincipal.dfm</Transaction>
+    <Transaction>2022/09/19 20:14:54.000.006,C:\Users\craymundo\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\craymundo\Desktop\Carlos\UfrmPrincipal.pas</Transaction>
+    <Transaction>2022/09/19 20:15:18.000.319,C:\Users\craymundo\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\craymundo\Desktop\Carlos\Exercicio 3 - RTL\RTL.dproj</Transaction>
+    <Transaction>2022/09/19 20:15:33.000.091,C:\Users\craymundo\Desktop\Carlos\UfrmPrincipal.dfm=C:\Users\craymundo\Desktop\Carlos\Exercicio 3 - RTL\UfrmPrincipal.dfm</Transaction>
+    <Transaction>2022/09/19 20:15:33.000.091,C:\Users\craymundo\Desktop\Carlos\UfrmPrincipal.pas=C:\Users\craymundo\Desktop\Carlos\Exercicio 3 - RTL\UfrmPrincipal.pas</Transaction>
+  </Transactions>
+</BorlandProject>

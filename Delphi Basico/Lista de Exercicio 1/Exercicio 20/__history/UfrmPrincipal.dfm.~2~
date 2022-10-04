@@ -1,0 +1,34 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 378
+  ClientWidth = 406
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Button1: TButton
+    Left = 120
+    Top = 40
+    Width = 145
+    Height = 25
+    Caption = 'Calcular Desconto'
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object mmValoresCalculados: TMemo
+    Left = 24
+    Top = 96
+    Width = 353
+    Height = 169
+    Lines.Strings = (
+      '')
+    TabOrder = 1
+  end
+end

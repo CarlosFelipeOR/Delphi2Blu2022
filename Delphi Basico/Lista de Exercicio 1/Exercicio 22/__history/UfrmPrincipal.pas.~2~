@@ -1,0 +1,72 @@
+unit UfrmPrincipal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TForm1 = class(TForm)
+    btnCadastro: TButton;
+    mmListaAptos: TMemo;
+    lblTitulo: TLabel;
+    procedure btnCadastroClick(Sender: TObject);
+  private
+    { Private declarations }
+
+    procedure CalculoLucro;
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+procedure Tform1.CalculoLucro;
+var
+  xCusto, xVenda: Currency;
+  xProduto : String;
+
+begin
+  mmListaAptos.Lines.Clear;
+  mmListaAptos.Lines.Add('Lista de produtos:');
+
+  repeat
+    xProduto := inputbox( 'Calculo Lucro','Descrição produto:','');
+    xCusto := StrToFloat(inputbox('Calculo Lucro','Valor de Custo(R$): ','0'));
+    xVenda := StrToFloat(inputbox('Calculo Lucro','Valor de Venda(R$): ','0'));
+
+    if (xIdade >= 18) and (xSexo = '1') and (xSaude = '1') then
+      begin
+        mmListaAptos.Lines.Add(xNome);
+        xContApto := xContApto + 1;
+      end
+    else
+      begin
+        mmListaNaoAptos.Lines.Add(xNome);
+        xContNaoApto := xContNaoApto + 1;
+      end;
+
+
+    xContinuar := UpperCase(inputbox( 'Alistamento Militar',
+                  'Deseja continuar cadastrando? S(Sim) ou N(Não)',''));
+  until (xContinuar = 'N');
+
+  mmListaAptos.Lines.Add('Total de aptos: ' + IntToStr(xContApto));
+  mmListaNaoAptos.Lines.Add('Total de Não aptos: ' + IntToStr(xContNaoApto));
+  mmListaAptos.Visible := True;
+  mmListaNaoAptos.Visible := True;
+
+end;
+
+procedure TForm1.btnCadastroClick(Sender: TObject);
+begin
+  Self.CalculoLucro;
+end;
+
+end.

@@ -1,0 +1,76 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 378
+  ClientWidth = 406
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 24
+    Top = 48
+    Width = 38
+    Height = 13
+    Caption = 'Modelo:'
+  end
+  object Label2: TLabel
+    Left = 160
+    Top = 48
+    Width = 23
+    Height = 13
+    Caption = 'Ano:'
+  end
+  object Label3: TLabel
+    Left = 256
+    Top = 48
+    Width = 106
+    Height = 13
+    Caption = 'Valor (Sem desconto):'
+  end
+  object edtModelo: TEdit
+    Left = 24
+    Top = 64
+    Width = 121
+    Height = 21
+    TabOrder = 0
+  end
+  object edtAno: TEdit
+    Left = 160
+    Top = 64
+    Width = 73
+    Height = 21
+    TabOrder = 1
+  end
+  object edtValor: TEdit
+    Left = 256
+    Top = 64
+    Width = 121
+    Height = 21
+    TabOrder = 2
+  end
+  object Button1: TButton
+    Left = 120
+    Top = 104
+    Width = 145
+    Height = 25
+    Caption = 'Calcular Desconto'
+    TabOrder = 3
+    OnClick = Button1Click
+  end
+  object mmValoresCalculados: TMemo
+    Left = 24
+    Top = 160
+    Width = 353
+    Height = 169
+    Lines.Strings = (
+      '')
+    TabOrder = 4
+  end
+end

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/09/16 18:20:49.000.880,=C:\Users\craymundo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/23 19:28:02.000.985,=C:\Users\craymundo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/23 19:31:22.000.080,=C:\Users\craymundo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/26 18:37:17.000.279,=C:\Users\craymundo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/26 20:33:25.000.066,=C:\Users\craymundo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/26 20:59:05.000.689,=C:\Users\craymundo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/27 21:10:05.000.805,=C:\Users\craymundo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/28 18:18:38.000.315,=C:\Users\craymundo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/30 18:50:09.000.267,=C:\Users\craymundo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/30 18:51:46.000.858,C:\Users\craymundo\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\craymundo\Desktop\Carlos\Projeto 17 - Menus\UfrmPrincipal.dfm</Transaction>
+    <Transaction>2022/09/30 18:51:46.000.858,C:\Users\craymundo\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\craymundo\Desktop\Carlos\Projeto 17 - Menus\UfrmPrincipal.pas</Transaction>
+    <Transaction>2022/09/30 18:52:01.000.949,C:\Users\craymundo\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\craymundo\Desktop\Carlos\Projeto 17 - Menus\Menu.dproj</Transaction>
+    <Transaction>2022/09/30 18:58:28.000.723,=C:\Users\craymundo\Desktop\Carlos\Projeto 17 - Menus\Unit1.pas</Transaction>
+    <Transaction>2022/09/30 18:59:14.000.706,C:\Users\craymundo\Desktop\Carlos\Projeto 17 - Menus\Unit1.dfm=C:\Users\craymundo\Desktop\Carlos\Projeto 17 - Menus\UfrmClientes.dfm</Transaction>
+    <Transaction>2022/09/30 18:59:14.000.706,C:\Users\craymundo\Desktop\Carlos\Projeto 17 - Menus\Unit1.pas=C:\Users\craymundo\Desktop\Carlos\Projeto 17 - Menus\UfrmClientes.pas</Transaction>
+    <Transaction>2022/09/30 19:03:58.000.610,=C:\Users\craymundo\Desktop\Carlos\Projeto 17 - Menus\Unit1.pas</Transaction>
+    <Transaction>2022/09/30 19:04:17.000.324,C:\Users\craymundo\Desktop\Carlos\Projeto 17 - Menus\Unit1.dfm=C:\Users\craymundo\Desktop\Carlos\Projeto 17 - Menus\UfrmFornecedores.dfm</Transaction>
+    <Transaction>2022/09/30 19:04:17.000.324,C:\Users\craymundo\Desktop\Carlos\Projeto 17 - Menus\Unit1.pas=C:\Users\craymundo\Desktop\Carlos\Projeto 17 - Menus\UfrmFornecedores.pas</Transaction>
+    <Transaction>2022/09/30 19:09:16.000.943,=C:\Users\craymundo\Desktop\Carlos\Projeto 17 - Menus\Unit1.pas</Transaction>
+    <Transaction>2022/09/30 19:09:26.000.844,C:\Users\craymundo\Desktop\Carlos\Projeto 17 - Menus\Unit1.pas=C:\Users\craymundo\Desktop\Carlos\Projeto 17 - Menus\UfrmProdutos.pas</Transaction>
+    <Transaction>2022/09/30 19:09:26.000.844,C:\Users\craymundo\Desktop\Carlos\Projeto 17 - Menus\Unit1.dfm=C:\Users\craymundo\Desktop\Carlos\Projeto 17 - Menus\UfrmProdutos.dfm</Transaction>
+  </Transactions>  <ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="UfrmClientes.pas"/>
+    <File Path="UfrmClientes.dfm"/>
+    <File Path="UfrmFornecedores.pas"/>
+    <File Path="UfrmFornecedores.dfm"/>
+    <File Path="UfrmPrincipal.pas"/>
+    <File Path="UfrmPrincipal.dfm"/>
+    <File Path="UfrmProdutos.pas"/>
+    <File Path="UfrmProdutos.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>

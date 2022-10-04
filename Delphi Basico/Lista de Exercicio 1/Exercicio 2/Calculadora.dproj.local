@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/09/16 18:20:49.000.880,=C:\Users\craymundo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/20 19:54:01.000.450,=C:\Users\craymundo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/20 19:59:52.000.504,C:\Users\craymundo\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\craymundo\Desktop\Carlos\Lista de Exercicio 1\Exercicio 1\UfrmPrincipal.dfm</Transaction>
+    <Transaction>2022/09/20 19:59:52.000.504,C:\Users\craymundo\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\craymundo\Desktop\Carlos\Lista de Exercicio 1\Exercicio 1\UfrmPrincipal.pas</Transaction>
+    <Transaction>2022/09/20 20:00:00.000.019,C:\Users\craymundo\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\craymundo\Desktop\Carlos\Lista de Exercicio 1\Exercicio 1\Soma.dproj</Transaction>
+    <Transaction>2022/09/20 20:02:30.000.978,C:\Users\craymundo\Desktop\Carlos\Lista de Exercicio 1\Exercicio 2\Calculadora.dproj=C:\Users\craymundo\Desktop\Carlos\Lista de Exercicio 1\Exercicio 2\Soma.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

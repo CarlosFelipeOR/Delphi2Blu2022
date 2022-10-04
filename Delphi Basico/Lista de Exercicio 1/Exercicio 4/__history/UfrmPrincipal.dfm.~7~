@@ -1,0 +1,98 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 186
+  ClientWidth = 546
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 41
+    Top = 48
+    Width = 80
+    Height = 13
+    Caption = 'Nome Vendedor:'
+  end
+  object Label2: TLabel
+    Left = 199
+    Top = 48
+    Width = 83
+    Height = 13
+    Caption = 'Sal'#225'rio Fixo (R$):'
+  end
+  object Label3: TLabel
+    Left = 356
+    Top = 48
+    Width = 142
+    Height = 13
+    Caption = 'Total de Vendas no m'#234's (R$):'
+  end
+  object lblResultado: TLabel
+    Left = 21
+    Top = 144
+    Width = 4
+    Height = 16
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 121
+    Top = 8
+    Width = 301
+    Height = 23
+    Caption = 'C'#193'LCULO DE SAL'#193'RIO MENSAL'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Image1: TImage
+    Left = 408
+    Top = 67
+    Width = 105
+    Height = 105
+  end
+  object edtNome: TEdit
+    Left = 41
+    Top = 64
+    Width = 140
+    Height = 21
+    TabOrder = 0
+  end
+  object edtSalarioFixo: TEdit
+    Left = 199
+    Top = 64
+    Width = 140
+    Height = 21
+    TabOrder = 1
+  end
+  object edtVendas: TEdit
+    Left = 356
+    Top = 64
+    Width = 140
+    Height = 21
+    TabOrder = 2
+  end
+  object btnCalcular: TButton
+    Left = 207
+    Top = 99
+    Width = 121
+    Height = 25
+    Caption = 'Calcular Sal'#225'rio Mensal'
+    TabOrder = 3
+    OnClick = btnCalcularClick
+  end
+end

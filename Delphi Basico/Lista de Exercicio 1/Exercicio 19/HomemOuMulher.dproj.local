@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/09/16 18:20:49.000.880,=C:\Users\craymundo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/23 19:28:02.000.985,=C:\Users\craymundo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/23 19:31:22.000.080,=C:\Users\craymundo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/26 18:37:17.000.279,=C:\Users\craymundo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/26 19:01:30.000.375,=C:\Users\craymundo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/26 19:12:34.000.413,C:\Users\craymundo\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\craymundo\Desktop\Carlos\Lista de Exercicio 1\Exercicio 17\UfrmPrincipal.dfm</Transaction>
+    <Transaction>2022/09/26 19:12:34.000.413,C:\Users\craymundo\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\craymundo\Desktop\Carlos\Lista de Exercicio 1\Exercicio 17\UfrmPrincipal.pas</Transaction>
+    <Transaction>2022/09/26 19:13:09.000.357,C:\Users\craymundo\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\craymundo\Desktop\Carlos\Lista de Exercicio 1\Exercicio 17\DezACentoECinquenta.dproj</Transaction>
+    <Transaction>2022/09/26 20:00:26.000.754,C:\Users\craymundo\Desktop\Carlos\Lista de Exercicio 1\Exercicio 18\MaiorDeIdade.dproj=C:\Users\craymundo\Desktop\Carlos\Lista de Exercicio 1\Exercicio 18\DezACentoECinquenta.dproj</Transaction>
+    <Transaction>2022/09/26 21:03:45.000.616,C:\Users\craymundo\Desktop\Carlos\Lista de Exercicio 1\Exercicio 19\HomemOuMulher.dproj=C:\Users\craymundo\Desktop\Carlos\Lista de Exercicio 1\Exercicio 19\MaiorDeIdade.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
