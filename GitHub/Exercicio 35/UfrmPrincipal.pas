@@ -36,8 +36,7 @@ begin
                    '1'));
 
   xDesconto := strtofloat(InputBox('Desconto cliente',
-                   'Informe se o cliente possui algum desconto a ser abatido',
-                    '0'));
+                   'Valor de desconto em R$','0'));
 
 
   xConsumo := StrToFloat(InputBox('Cálculo Conta de Luz',
