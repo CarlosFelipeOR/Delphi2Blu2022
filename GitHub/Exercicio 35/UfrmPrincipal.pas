@@ -7,6 +7,8 @@ uses
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
 
 type
+  TEnumCliente = (tcResidencia=1,tcComercio,tcIndustria,tcRural);
+
   TfrmPrincipal = class(TForm)
     btnIniciar: TButton;
     mmValorConta: TMemo;
@@ -42,20 +44,20 @@ begin
   xConsumo := StrToFloat(InputBox('Cálculo Conta de Luz',
                    'Quantidade de kWh consumido:',
                    '0'));
-  case xTipoCliente of
-    1: //Residência
-      xValorConta := xConsumo * 0.6;
-    2: //Comércio
-      xValorConta := xConsumo * 0.48;
-    3: //Industria
-      xValorConta := xConsumo * 1.29;
-    4: //Área rural
-      xValorConta := xConsumo * 2.18;
+  case TEnumCliente(xTipoCliente) of
+    tcResidencia:
+      xValorConta := xConsumo * 0.8;
+    tcComercio:
+      xValorConta := xConsumo * 0.68;
+    tcIndustria:
+      xValorConta := xConsumo * 1.49;
+    tcRural:
+      xValorConta := xConsumo * 3.18;
   end;
 
   xvalorconta := xvalorconta - xdesconto;
 
-  mmValorConta.Lines.Add(FormatFloat('R$ #0.00',xValorConta));
+  mmValorConta.Lines.Add(FormatFloat('R$ ####0.00',xValorConta));
 
 end;
 
