@@ -37,13 +37,14 @@ begin
                    'Tipo de Cliente: 1-Residencia, 2-Comércio , 3-Indústria ou 4-Área rural',
                    '1'));
 
+  xConsumo := StrToFloat(InputBox('Cálculo Conta de Luz',
+                   'Quantidade de kWh consumido:',
+                   '0'));
+
   xDesconto := strtofloat(InputBox('Desconto cliente',
                    'Valor de desconto em R$','0'));
 
 
-  xConsumo := StrToFloat(InputBox('Cálculo Conta de Luz',
-                   'Quantidade de kWh consumido:',
-                   '0'));
   case TEnumCliente(xTipoCliente) of
     tcResidencia:
       xValorConta := xConsumo * 0.8;
