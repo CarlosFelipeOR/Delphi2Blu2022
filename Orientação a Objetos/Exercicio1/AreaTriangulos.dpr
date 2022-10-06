@@ -2,13 +2,14 @@ program AreaTriangulos;
 
 uses
   Vcl.Forms,
-  UfrmPrincipal in 'UfrmPrincipal.pas' {Form1};
+  UfrmPrincipal in 'UfrmPrincipal.pas' {frmPrincipal},
+  UTriangulo in 'UTriangulo.pas';
 
 {$R *.res}
 
 begin
   Application.Initialize;
   Application.MainFormOnTaskbar := True;
-  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TfrmPrincipal, frmPrincipal);
   Application.Run;
 end.

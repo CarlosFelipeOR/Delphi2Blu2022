@@ -28,9 +28,11 @@ type
     btnCalcular: TButton;
     btnCalcularOPP: TButton;
     procedure btnCalcularClick(Sender: TObject);
+    procedure btnCalcularOPPClick(Sender: TObject);
   private
     { Private declarations }
     procedure CalcularArea;
+    procedure CalcularAreaOOP;
   public
     { Public declarations }
   end;
@@ -40,7 +42,12 @@ var
 
 implementation
 
+uses
+  UTriangulo;
+
 {$R *.dfm}
+
+
 
 procedure TfrmPrincipal.CalcularArea;
 var
@@ -72,9 +79,60 @@ begin
 
 end;
 
+procedure TfrmPrincipal.CalcularAreaOOP;
+var
+  xTrianguloX: TTriangulo;
+  xTrianguloY: TTriangulo;
+
+  xAreaX: Double;
+  xAreaY: Double;
+begin
+  xTrianguloX := TTriangulo.Create;
+  xTrianguloY := TTriangulo.Create;
+
+  try
+    //Primeiro triangulo
+    xTrianguloX.a := StrToFloatDef(edtTrianguloXA.Text,0.0);
+    xTrianguloX.b := StrToFloatDef(edtTrianguloXB.Text,0.0);
+    xTrianguloX.c := StrToFloatDef(edtTrianguloXC.Text,0.0);
+
+    xAreaX := xTrianguloX.Area;
+
+    //Segundo triangulo
+    xTrianguloY.a := StrToFloatDef(edtTrianguloYA.Text,0.0);
+    xTrianguloY.b := StrToFloatDef(edtTrianguloYB.Text,0.0);
+    xTrianguloY.c := StrToFloatDef(edtTrianguloYC.Text,0.0);
+
+    xAreaY := xTrianguloY.Area;
+
+
+    //Imprime na tela
+    lblAreaX.Caption :='Área do triângulo X: ' + FormatFloat('0.## cm²',xAreaX);
+    lblAreaY.Caption :='Área do triângulo Y: ' + FormatFloat('0.## cm²',xAreaY);
+
+    if xAreaX > xAreaY then
+    lblComparacao.Caption := ' A área do triangulo X é maior'
+    else if xAreaX < xAreaY then
+    lblComparacao.Caption := ' A área do triangulo Y é maior'
+    else
+    lblComparacao.Caption := ' As áreas dos triangulos são iguais';
+
+  finally
+    FreeAndNil(xTrianguloX);
+    FreeAndNil(xTrianguloY);
+  end;
+end;
+
+
 procedure TfrmPrincipal.btnCalcularClick(Sender: TObject);
 begin
   Self.CalcularArea;
+end;
+
+
+procedure TfrmPrincipal.btnCalcularOPPClick(Sender: TObject);
+begin
+  Self.CalcularAreaOOP;
 end;
 
 end.

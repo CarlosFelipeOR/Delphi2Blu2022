@@ -184,5 +184,6 @@ object frmPrincipal: TfrmPrincipal
     Height = 25
     Caption = 'Calcular OPP'
     TabOrder = 7
+    OnClick = btnCalcularOPPClick
   end
 end
