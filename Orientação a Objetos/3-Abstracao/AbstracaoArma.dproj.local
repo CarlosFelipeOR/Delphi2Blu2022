@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/10/18 21:37:53.000.703,=C:\Users\craymundo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/10/19 18:25:30.064,=C:\Users\craymundo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/10/19 18:26:16.120,C:\Users\craymundo\Desktop\Carlos\Orientação a Objetos\3-Abstracao\UPrincipal.pas=C:\Users\craymundo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/10/19 18:26:16.120,C:\Users\craymundo\Desktop\Carlos\Orientação a Objetos\3-Abstracao\UPrincipal.dfm=C:\Users\craymundo\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2022/10/19 18:26:25.659,C:\Users\craymundo\Desktop\Carlos\Orientação a Objetos\3-Abstracao\AbstracaoArma.dproj=C:\Users\craymundo\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
