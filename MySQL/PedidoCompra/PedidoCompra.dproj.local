@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/10/18 21:37:53.000.703,=C:\Users\craymundo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/10/31 20:13:06.000.057,=C:\Users\craymundo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/10/31 20:15:27.000.700,C:\Users\craymundo\Desktop\Carlos\MySQL\PedidoCompra\UfrmPrincipal.pas=C:\Users\craymundo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/10/31 20:15:27.000.700,C:\Users\craymundo\Desktop\Carlos\MySQL\PedidoCompra\UfrmPrincipal.dfm=C:\Users\craymundo\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2022/10/31 20:15:42.000.945,C:\Users\craymundo\Desktop\Carlos\MySQL\PedidoCompra\PedidoCompra.dproj=C:\Users\craymundo\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2022/10/31 21:04:44.000.466,=C:\Users\craymundo\Desktop\Carlos\MySQL\PedidoCompra\Unit1.pas</Transaction>
+    <Transaction>2022/10/31 21:05:17.000.648,C:\Users\craymundo\Desktop\Carlos\MySQL\PedidoCompra\UdmPedidos.pas=C:\Users\craymundo\Desktop\Carlos\MySQL\PedidoCompra\Unit1.pas</Transaction>
+    <Transaction>2022/10/31 21:05:17.000.648,C:\Users\craymundo\Desktop\Carlos\MySQL\PedidoCompra\UdmPedidos.dfm=C:\Users\craymundo\Desktop\Carlos\MySQL\PedidoCompra\Unit1.dfm</Transaction>
+    <Transaction>2022/10/31 21:25:57.000.438,=C:\Users\craymundo\Desktop\Carlos\MySQL\PedidoCompra\Unit1.pas</Transaction>
+    <Transaction>2022/10/31 21:26:17.000.490,C:\Users\craymundo\Desktop\Carlos\MySQL\PedidoCompra\UfrmCompradores.pas=C:\Users\craymundo\Desktop\Carlos\MySQL\PedidoCompra\Unit1.pas</Transaction>
+    <Transaction>2022/10/31 21:26:17.000.490,C:\Users\craymundo\Desktop\Carlos\MySQL\PedidoCompra\UfrmCompradores.dfm=C:\Users\craymundo\Desktop\Carlos\MySQL\PedidoCompra\Unit1.dfm</Transaction>
+    <Transaction>2022/11/01 18:41:42.000.281,=C:\Users\craymundo\Desktop\Carlos\MySQL\PedidoCompra\Unit1.pas</Transaction>
+    <Transaction>2022/11/01 18:41:55.000.710,C:\Users\craymundo\Desktop\Carlos\MySQL\PedidoCompra\Unit1.pas=C:\Users\craymundo\Desktop\Carlos\MySQL\PedidoCompra\UfrmFonecedores.pas</Transaction>
+    <Transaction>2022/11/01 18:41:55.000.710,C:\Users\craymundo\Desktop\Carlos\MySQL\PedidoCompra\Unit1.dfm=C:\Users\craymundo\Desktop\Carlos\MySQL\PedidoCompra\UfrmFonecedores.dfm</Transaction>
+    <Transaction>2022/11/01 19:04:26.000.862,=C:\Users\craymundo\Desktop\Carlos\MySQL\PedidoCompra\Unit1.pas</Transaction>
+    <Transaction>2022/11/01 19:07:33.000.002,C:\Users\craymundo\Desktop\Carlos\MySQL\PedidoCompra\Unit1.pas=C:\Users\craymundo\Desktop\Carlos\MySQL\PedidoCompra\UfrmUnMedida.pas</Transaction>
+    <Transaction>2022/11/01 19:07:33.000.002,C:\Users\craymundo\Desktop\Carlos\MySQL\PedidoCompra\Unit1.dfm=C:\Users\craymundo\Desktop\Carlos\MySQL\PedidoCompra\UfrmUnMedida.dfm</Transaction>
+    <Transaction>2022/11/01 19:20:47.000.557,=C:\Users\craymundo\Desktop\Carlos\MySQL\PedidoCompra\Unit1.pas</Transaction>
+    <Transaction>2022/11/01 19:21:02.000.086,C:\Users\craymundo\Desktop\Carlos\MySQL\PedidoCompra\Unit1.pas=C:\Users\craymundo\Desktop\Carlos\MySQL\PedidoCompra\UfrmProdutos.pas</Transaction>
+    <Transaction>2022/11/01 19:21:02.000.086,C:\Users\craymundo\Desktop\Carlos\MySQL\PedidoCompra\Unit1.dfm=C:\Users\craymundo\Desktop\Carlos\MySQL\PedidoCompra\UfrmProdutos.dfm</Transaction>
+    <Transaction>2022/11/01 20:13:56.000.002,=C:\Users\craymundo\Desktop\Carlos\MySQL\PedidoCompra\Unit1.pas</Transaction>
+    <Transaction>2022/11/01 20:14:08.000.463,C:\Users\craymundo\Desktop\Carlos\MySQL\PedidoCompra\Unit1.dfm=C:\Users\craymundo\Desktop\Carlos\MySQL\PedidoCompra\UfrmPedidos.dfm</Transaction>
+    <Transaction>2022/11/01 20:14:08.000.463,C:\Users\craymundo\Desktop\Carlos\MySQL\PedidoCompra\Unit1.pas=C:\Users\craymundo\Desktop\Carlos\MySQL\PedidoCompra\UfrmPedidos.pas</Transaction>
+  </Transactions>
+</BorlandProject>
