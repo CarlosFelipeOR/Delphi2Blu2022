@@ -1,0 +1,6 @@
+- cadastro INT
+- nome VARCHAR(150)
+- idade TINYINT UNSIGNED
+- data_nascimento DATE
+- cpf CHAR(11)
+- cnpj CHAR(14)

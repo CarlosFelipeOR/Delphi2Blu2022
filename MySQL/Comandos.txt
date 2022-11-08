@@ -1,0 +1,131 @@
+create database revenda;     //cria o banco de dado
+
+use revenda;                //Seleciona qual banco de dados
+
+//Comando para criar tabela:
+
+create table testes(
+campo1 tinyint(2) UNSIGNED NOT NULL,
+campo2 smallint(5) UNSIGNED DEFAULT NULL,
+campo3 mediumint(9) UNSIGNED DEFAULT NULL,
+campo4 int(15) UNSIGNED DEFAULT NULL,
+campo5 bigint(25) UNSIGNED DEFAULT NULL,
+campo6 VARCHAR(255) DEFAULT NULL,
+campo7 CHAR(10)DEFAULT NULL,
+campo8 TEXT,
+campo9 BIT(1) NOT NULL DEFAULT 1,
+campo10 FLOAT(4,2) NOT NULL,
+PRIMARY KEY(campo1),
+UNIQUE KEY campo7(campo7)
+);
+
+
+
+ALTER TABLE testes DROP PRIMARY KEY; //Remove o primary key da tabela:
+
+
+//: Adiciona um novo campo e atribui o primary key:
+
+ALTER TABLE testes 
+  ADD campo_id tinyint(2) UNSIGNED NOT NULL AUTO_INCREMENT,
+  ADD PRIMARY KEY(campo_id);
+
+
+SHOW TABLES;  //Mostra todas as tabelas
+
+
+DESC testes;  //Mostra todos os campos
+
+DROP DATABASE testes //Deleta o banco de dados
+
+TRUNCATE TABLE nome_tabela //limpa a tabela
+
+
+//Comandos repassados pelo Jean:
+
+SELECT *  FROM address  where district = 'BUENOS AIRES';
+SELECT *  FROM address  where district <> 'CALIFORNIA';
+SELECT *  FROM actor where first_name LIKE    'A%' ;
+SELECT *  FROM actor where  last_name LIKE    'CAGE' ;
+SELECT *  FROM address where  phone LIKE    '7058%' ;
+SELECT *  FROM address where  phone LIKE    '_6%' ;
+
+SELECT * FROM film where  film_id between  150 and 170 ;
+SELECT *  FROM actor order by first_name asc;  
+SELECT *  FROM actor order by first_name desc;
+
+SELECT *  FROM address where district   limit 0,5;
+SELECT *  FROM address  limit 5,5;
+
+SELECT max(address_id) FROM address;
+SELECT mim(address_id) FROM address;
+SELECT avg(address_id) FROM address;
+
+
+
+----------------Comandos aula 28/10/2022-----------------------------
+
+//Atualizar um campo
+UPDATE actor 
+    SET last_update = '2022-10-28 18:26:00'
+    WHERE actor_id = '2';
+
+//Deletar um registro
+DELETE
+  FROM ACTOR
+   WHERE ACTOR_ID = 201;
+
+//Adicionar um Registro
+INSERT INTO ACTOR (first_name,last_name,last_update)
+	VALUES ('Brad','Fulano', '2022-10-28 18:26:00');
+
+OU
+INSERT INTO ACTOR VALUES (300,'Brad','Fulano', '2022-10-28 18:26:00');
+
+OU
+INSERT INTO ACTOR (first_name,last_name,last_update)
+	SELECT 'CARLOS', LAST_NAME, LAST_UPDATE
+    FROM ACTOR WHERE ACTOR_ID = 200;
+
+
+
+
+//Foreign Key
+
+use sakila;
+
+select * from pessoas;
+
+create table pessoas(
+PersonID INT UNSIGNED NOT NULL auto_increment,
+LastName VARCHAR(150),
+FirstName VARCHAR(150),
+AGE smallint(15),
+PRIMARY KEY(PersonID),
+UNIQUE KEY PersonID(PersonID)
+);
+
+INSERT INTO pessoas (lastname,firstname,age)
+	VALUES ('Pedro','Joao', 89);
+
+create table pedidos(
+OrderID INT UNSIGNED NOT NULL auto_increment,
+OrderNumber INT,
+PersonId INT UNSIGNED,
+PRIMARY KEY(OrderID),
+UNIQUE KEY OrderID(OrderID),
+FOREIGN KEY (PersonID) REFERENCES Pessoas(PersonID)   //-------- adiciona a Foreign Key
+);
+
+select * from pedidos;
+
+INSERT INTO pedidos (OrderNumber,PersonId)
+	VALUES (89764, 3);
+
+
+//CONTAR:
+SELECT COUNT(1), ACTIVE
+  FROM CUSTOMER
+  inner join ADDRESS ON ADDRESS.ADDRESS_ID = CUSTOMER.ADDRESS_ID
+  WHERE ADDRESS.DISTRICT = 'CALIFORNIA'
+  GROUP BY ACTIVE;

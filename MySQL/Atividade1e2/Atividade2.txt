@@ -1,0 +1,17 @@
+rua VARCHAR(150)
+numero VARCHAR(20)
+complemento VARCHAR(200)
+cep CHAR(8)
+cidade VARCHAR(150)
+estado VARCHAR(50)
+data_cadastro DATE
+ultima_atualizacao DATETIME
+sexo VARCHAR(20)
+religiao VARCHAR(50)
+cor VARCHAR(50)
+qi SMALLINT
+tipo_sangue VARCHAR(3)
+doador BIT
+passagem_policia BIT
+grau_ensino VARCHAR(100)
+ativo BIT

@@ -1,0 +1,47 @@
+
+CREATE TABLE `funcionario` (
+  `cadastro` int NOT NULL AUTO_INCREMENT,
+  `nome` varchar(150) NOT NULL,
+  `idade` tinyint unsigned DEFAULT NULL,
+  `data_nascimento` date NOT NULL,
+  `cpf` char(11) DEFAULT NULL,
+  `cnpj` char(14) DEFAULT NULL,
+  `rua` varchar(100) NOT NULL,
+  `numero` varchar(20) NOT NULL,
+  `complemento` varchar(150) DEFAULT NULL,
+  `CEP` char(8) DEFAULT NULL,
+  `cidade` varchar(150) NOT NULL,
+  `estado` varchar(45) NOT NULL,
+  `data_cadastro` date NOT NULL,
+  `ultima_atualizacao` datetime NOT NULL,
+  `sexo` varchar(45) NOT NULL,
+  `religiao` varchar(45) DEFAULT NULL,
+  `cor` varchar(45) DEFAULT NULL,
+  `qi` smallint DEFAULT NULL,
+  `tipo_sangue` varchar(3) DEFAULT NULL,
+  `doador` bit(1) DEFAULT NULL,
+  `passagem_policia` bit(1) DEFAULT NULL,
+  `grau_ensino` varchar(100) DEFAULT NULL,
+  `ativo` bit(1) DEFAULT NULL,
+  PRIMARY KEY (`cadastro`),
+  UNIQUE KEY `cadastro_UNIQUE` (`cadastro`),
+  UNIQUE KEY `cpf_UNIQUE` (`cpf`),
+  UNIQUE KEY `cnpj_UNIQUE` (`cnpj`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
+
+________________________________________________________________-
+
+CREATE TABLE `devs2blu`.`dependentes` (
+  `codigo_dependente` INT UNSIGNED NOT NULL AUTO_INCREMENT,
+  `codigo_funcionario` INT UNSIGNED NOT NULL,
+  `grau_parentesco` VARCHAR(45) NOT NULL,
+  `data_nascimento` DATE NOT NULL,
+  `sexo` VARCHAR(45) NOT NULL,
+  `endereco` VARCHAR(255) NOT NULL,
+  `complemento` VARCHAR(150) NULL,
+  `bairro` VARCHAR(150) NOT NULL,
+  `cidade` VARCHAR(150) NOT NULL,
+  `estado` VARCHAR(45) NOT NULL,
+  `tipo_sangue` VARCHAR(10) NULL,
+  PRIMARY KEY (`codigo_dependente`));
+
