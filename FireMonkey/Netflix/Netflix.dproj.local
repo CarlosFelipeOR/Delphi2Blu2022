@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/12/12 19:34:45.000.415,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/12/12 19:36:49.000.470,C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.fmx=C:\Users\mysql\Desktop\Carlos\Netflix\UfrmPrincipal.fmx</Transaction>
+    <Transaction>2022/12/12 19:36:49.000.470,C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\mysql\Desktop\Carlos\Netflix\UfrmPrincipal.pas</Transaction>
+    <Transaction>2022/12/12 19:36:54.000.616,C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\mysql\Desktop\Carlos\Netflix\Netflix.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android=""/>
+	</ActiveMobileDevice>
+</BorlandProject>
