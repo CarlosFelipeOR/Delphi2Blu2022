@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/12/09 20:45:10.000.386,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/12/09 20:47:13.000.692,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2022/12/09 20:47:52.000.967,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2022/12/09 20:48:28.000.860,C:\Users\mysql\Desktop\ToDoList\USplash.fmx=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit2.fmx</Transaction>
+    <Transaction>2022/12/09 20:48:28.000.860,C:\Users\mysql\Desktop\ToDoList\USplash.pas=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2022/12/09 20:48:34.000.980,C:\Users\mysql\Desktop\ToDoList\UPrincipal.pas=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/12/09 20:48:34.000.980,C:\Users\mysql\Desktop\ToDoList\UPrincipal.fmx=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2022/12/09 20:48:42.000.641,C:\Users\mysql\Desktop\ToDoList\ToDoList.dproj=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2022/12/09 20:59:44.000.950,C:\Users\mysql\Desktop\ToDoList\UfrmPrincipal.pas=C:\Users\mysql\Desktop\ToDoList\UPrincipal.pas</Transaction>
+    <Transaction>2022/12/09 20:59:44.000.950,C:\Users\mysql\Desktop\ToDoList\UfrmPrincipal.fmx=C:\Users\mysql\Desktop\ToDoList\UPrincipal.fmx</Transaction>
+    <Transaction>2022/12/09 21:23:18.000.147,C:\Users\mysql\Desktop\ToDoList\UfrmSplash.fmx=C:\Users\mysql\Desktop\ToDoList\USplash.fmx</Transaction>
+    <Transaction>2022/12/09 21:23:18.000.147,C:\Users\mysql\Desktop\ToDoList\UfrmSplash.pas=C:\Users\mysql\Desktop\ToDoList\USplash.pas</Transaction>
+    <Transaction>2022/12/09 21:32:21.000.246,=C:\Users\mysql\Desktop\ToDoList\SharedPreference.pas</Transaction>
+    <Transaction>2022/12/09 21:33:07.000.360,C:\Users\mysql\Desktop\ToDoList\SharedPreference.pas=</Transaction>
+    <Transaction>2022/12/09 21:33:12.000.086,=C:\Users\mysql\Desktop\ToDoList\SharedPreference.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>
