@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/12/12 18:46:27.000.567,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/12/19 19:07:22.000.395,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/12/19 19:08:30.000.223,C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\UftrmPrincipal.pas</Transaction>
+    <Transaction>2022/12/19 19:08:30.000.223,C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.fmx=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\UftrmPrincipal.fmx</Transaction>
+    <Transaction>2022/12/19 19:09:35.000.360,C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Vogo_da_Velha.dproj</Transaction>
+    <Transaction>2022/12/19 19:17:53.000.314,C:\Users\mysql\Documents\Embarcadero\Studio\Projects\UftrmPrincipal.pas=C:\Users\mysql\Documents\Embarcadero\Studio\Jogo da Velha\UftrmPrincipal.pas</Transaction>
+    <Transaction>2022/12/19 19:17:53.000.314,C:\Users\mysql\Documents\Embarcadero\Studio\Projects\UftrmPrincipal.fmx=C:\Users\mysql\Documents\Embarcadero\Studio\Jogo da Velha\UftrmPrincipal.fmx</Transaction>
+    <Transaction>2022/12/19 19:17:55.000.278,C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Vogo_da_Velha.dproj=C:\Users\mysql\Documents\Embarcadero\Studio\Jogo da Velha\Vogo_da_Velha.dproj</Transaction>
+    <Transaction>2022/12/20 18:32:40.000.779,C:\Users\mysql\Desktop\Carlos\Jogo da Velha\Vogo_da_Velha.dproj=C:\Users\mysql\Desktop\Carlos\Jogo da Velha\JogoVelha.dproj</Transaction>
+    <Transaction>2022/12/20 18:32:47.000.676,C:\Users\mysql\Desktop\Carlos\Jogo da Velha\UftrmPrincipal.fmx=C:\Users\mysql\Desktop\Carlos\Jogo da Velha\UfrmPrincipal.fmx</Transaction>
+    <Transaction>2022/12/20 18:32:47.000.676,C:\Users\mysql\Desktop\Carlos\Jogo da Velha\UftrmPrincipal.pas=C:\Users\mysql\Desktop\Carlos\Jogo da Velha\UfrmPrincipal.pas</Transaction>
+    <Transaction>2022/12/20 18:33:02.000.870,=C:\Users\mysql\Desktop\Carlos\Jogo da Velha\Unit1.pas</Transaction>
+    <Transaction>2022/12/20 18:33:13.000.741,C:\Users\mysql\Desktop\Carlos\Jogo da Velha\Unit1.pas=C:\Users\mysql\Desktop\Carlos\Jogo da Velha\UJogoVelha.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>
